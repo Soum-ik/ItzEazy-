@@ -1,0 +1,76 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.heading {
+  padding: 0;
+  margin: 0;
+  opacity: 80%;
+}
+/* main controler */
+.top {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(250, 249, 249);
+  color: black;
+  padding: 5px 20px;
+  border-radius: 50px;
+}
+
+/* main content */
+.main-content {
+  margin-top: 20px;
+  min-width: 400px;
+  background-color: rgb(241, 240, 240);
+  padding: 5px 20px;
+  border-radius: 5px;
+  display: flex;
+  transition: all 1s ease;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* issue div */
+.issue {
+  padding-top: 20px;
+  text-align: center;
+  width: 400px;
+}
+
+/* items */
+.issue-item {
+  background-color: white;
+  opacity: 80%;
+  padding: 7px 5px;
+  font-weight: bold;
+  margin: 10px 0px;
+  border-radius: 9px;
+}
+
+/* issue title */
+.title {
+  margin-top: 5px;
+  opacity: 80%;
+}
+
+/* toggle */
+
+/* Define initial state for dropdown content */
+.dropdown-content {
+  display: none;
+}
+
+/* Define style when dropdown is active */
+.dropdown-active {
+  display: block;
+}
